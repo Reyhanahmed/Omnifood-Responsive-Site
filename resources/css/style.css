@@ -37,12 +37,15 @@ section{
 	padding: 80px 0;
 }
 
+.box{
+	padding: 1%;
+}
 /*----- HEADINGS ------- */
 
-h1, h2{
+h1, h2, h3{
 	font-weight: 300;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	
 }
 
 h1{
@@ -51,6 +54,7 @@ h1{
 	color: #fff;
 	font-size: 240%;
 	word-spacing: 4px;
+	letter-spacing: 1px;
 }
 
 h2{
@@ -58,8 +62,13 @@ h2{
 	word-spacing: 2px;
 	text-align: center;
 	margin-bottom: 30px;
+	letter-spacing: 1px;
 }
 
+h3{
+	font-size: 110%;
+	margin-bottom: 15px;
+}
 h2:after{
 	content: " ";
 	display: block;
@@ -68,6 +77,26 @@ h2:after{
 	width: 100px;
 	margin: 0 auto;
 	margin-top: 30px;
+}
+
+/*----- PARAGRAPHS ------- */
+.long-copy{
+	line-height: 145%;
+	width: 66%;
+	margin-left: 17%;
+}
+
+.box p{
+	font-size: 90%;
+	line-height: 145%;
+}
+
+/*----- ICONS ------- */
+.icon-big{
+	font-size: 350%;
+	color: #e67e22;
+	margin-bottom: 10px;
+	display: block;
 }
 /*----- BUTTONS ------- */
 
