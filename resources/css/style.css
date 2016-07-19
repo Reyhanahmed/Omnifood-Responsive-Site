@@ -215,6 +215,7 @@ header{
 	margin: 5px 0;
 }
 
+
 /* Main navi */
 .main-nav{
 	float: right;
@@ -253,6 +254,7 @@ header{
 	background-color: rgba(255, 255, 255, 0.98);
 	box-shadow: 0 2px 2px #efefef;
 	z-index: 1;
+	transition: 0.2s;
 }
 
 .sticky .main-nav{ margin-top: 16px; }
@@ -261,6 +263,12 @@ header{
 .sticky .main-nav li a:visited{
 	padding: 16px 0;
 	color: #555;
+}
+
+.sticky .main-nav li a:active,
+.sticky .main-nav li a:hover{
+	border-bottom: 2px solid #e67e22;
+	color: #e67e22;
 }
 
 .sticky .logo{ display: none; }
