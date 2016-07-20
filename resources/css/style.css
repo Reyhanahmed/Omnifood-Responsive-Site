@@ -245,6 +245,19 @@ header{
 	color: #e67e22;
 }
 
+/* Mobile navi */
+.mobile-nav-icon{
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon{
+	color: #fff;
+	font-size: 200%;
+}
+
 /* Sticky navi */
 .sticky{
 	position: fixed;
@@ -610,7 +623,7 @@ footer p{
 }
 
 .js--wp-4{
-	animation-duration: 1s;
+	animation-duration: 1s;	
 }
 
 .js--wp-1.animated,
