@@ -79,3 +79,20 @@ $(".js--nav-icon").click(function(){
 		icon.removeClass("ion-close-round");
 	}
 });
+
+/* MAPS */
+var map = new GMaps({
+  div: '.map',
+  lat: 24.8615, 
+  lng: 67.14,
+  zoom: 12
+});
+
+map.addMarker({
+  lat: 24.8615, 
+  lng: 67.0099,
+  title: 'Karachi',
+  infoWindow: {
+  	content: '<p>Our Karachi HQ</p>'
+  }
+});
